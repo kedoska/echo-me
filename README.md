@@ -12,7 +12,7 @@ A PoC to fine-tune an OpenAI model to adopt a specific style of writing using Wh
 ### Challenges
  - [x] Extract text from audio;
  - [ ] Create a dataset of conversations;
- - [ ] Classify conversations by argument, tone, context; 
+ - [x] Classify conversations by argument, tone, context; 
  - [ ] Fine-tune the model to adopt the style of the author;
  - [ ] Generate text in the same style as the author.
  - [ ] Create a web app to interact with the model.
