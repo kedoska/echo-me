@@ -28,3 +28,6 @@ A PoC to fine-tune an OpenAI model to adopt a specific style of writing using Wh
  2. Install dependencies with `pipenv install`
  3. Clone the `.env.example` file to `.env` and add your OpenAI API key
 
+### Run
+1. Activate the virtual environment with `pipenv shell`
+2. Run the script with `python main.py audios/test.ogg `
