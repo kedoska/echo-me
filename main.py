@@ -2,6 +2,8 @@ import os
 import sys
 
 from dotenv import load_dotenv
+
+from classify import classify, openai_classify
 from transcribe import transcribe, convert_ogg_to_mp3, openai_transcribe
 
 load_dotenv()
@@ -23,3 +25,4 @@ if __name__ == '__main__':
 
     transcribe(mp3_file_path, text_file_path, transcribe_driver=openai_transcribe)
 
+    classify(text_file_path, classify_driver=openai_classify, prompt_version="ita_v1")
