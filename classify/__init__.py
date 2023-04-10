@@ -5,7 +5,7 @@ import openai
 key_value_prompts = {
     "ita_v1": {
         "prompt": "Classifica questo testo con etichette di una unica parola separate per virgola, "
-              "relative al tono, stato emotivo, argumento, livello di esperienze:\n{{text}}\n",
+              "relative al tono, stato emotivo, argumento, livello di esperienza:\n{{text}}\n",
         "ghost_tags": ["", " ", "  ", "tono", "stato emotivo", "argumento", "livello di esperienze"]
     }
 }
