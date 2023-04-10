@@ -7,6 +7,8 @@ A PoC to fine-tune an OpenAI model to adopt a specific style of writing using Wh
 **What**: With this project we want to fine-tune an OpenAI model to adopt a specific style of writing using WhatsApp audio messages.<br/>
 **Goal**: The model will then be able to generate text in the same style as the author.<br/>
 
+<img src="https://raw.githubusercontent.com/kedoska/echo-me/master/static/diagram1.png" alt="Diagram 1">
+
 ### Challenges
  - [x] Extract text from audio;
  - [ ] Create a dataset of conversations;
